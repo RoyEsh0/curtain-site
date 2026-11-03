@@ -1,6 +1,6 @@
-# JPT Tiling Website
+# Curtain Website
 
-A showcase website for a small tiling company, displaying completed and upcoming projects.
+A showcase website for a small curtain business, displaying different curtain designs created by the business owner.
 
 ## Tech stack
 

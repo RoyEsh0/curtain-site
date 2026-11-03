@@ -5,7 +5,7 @@ const projectList = document.querySelector("#project-list");
 
 function createProjectCard (project){
   return `
-  <article class="overflow-hidden rounded-lg bg-white p-6 shadow">
+  <article class="overflow-hidden rounded-lg bg-white p-6 shadow-olive-400">
     <img 
       src="${project.image}"
       alt="${project.alt}"
@@ -13,7 +13,7 @@ function createProjectCard (project){
       class="aspect-[4/3] w-full object-cover"
       />
       <div class="p-6">
-        <span class="text-sm font-semibold uppercase text-brand">${project.status}</span>
+        <span class="text-sm font-semibold uppercase text-brand">${project.category}</span>
         <h3 class="mt-2 text-xl font-bold">${project.title}</h3>
         <p class="mt-2 text-stone-600">${project.description}</p>
       </div>  
@@ -28,7 +28,7 @@ function renderProjects () {
   const visibleProjects = 
     currentFilter === "all"
     ? projects
-    : projects.filter((project) => project.status === currentFilter);
+    : projects.filter((project) => project.category === currentFilter);
 
   
   projectList.innerHTML = visibleProjects.map(createProjectCard).join("");
