@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JPT| Professional Tiling Services</title>
+    <meta 
+    name="description"
+    content="Professional tiling for kitchens, bathrooms and floors. See our complete and upcoming projects and get a free quote."
+    />
+    <link rel="icon" href="image/svg+xml" href="/favicon.svg">
+    <meta
+    property="og:title"
+    content="JPT| Professional Tiling Services"
+    />
+    <meta
+    property="og:description"
+    content="See our completed and upcoming tiling projects and get a free quote."
+    />
+    <meta 
+    property="og:type"
+    content="website"
+    />
+    <meta property="og:url" content="https://jpt-tiling.netlify.app/" />
+    <meta property="og:image" content="https://jpt-tiling.netlify.app/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class="bg-stone-50 text-stone-800">
+  
+  <header class="bg-white shadow">
+    <nav class="mx-auto max-w-5xl p-4 md:flex md:items-center md:justify-between">
+      <div class="flex items-center justify-between">
+        <a href="#" class="text-xl font-bold text-brand">JPT tiling</a>
+        <button
+        id="menu-button"
+        type="button"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="menu"
+        class="rounded p-2 text-2xl md:hidden"
+        >
+        &#9776;
+        </button>
+      </div>
+      <ul id="menu" class="hidden space-y-4 pt-4 md:flex md:space-y-0 md:gap-6 md:pt-0">
+        <li><a href="#projects" class="hover:text-brand">Projects</a></li>
+        <li><a href="#about" class="hover:text-brand">About</a></li>
+        <li><a href="#contact" class="hover:text-brand">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main>
+    <section class="bg-stone-800 py-24 text-center text-white">
+      <div class="mx-auto max-w-3xl px-4">
+        <h1 class="text-4xl font-bold md:text-6xl">Quality tiling, done right</h1>
+        <p class="mt-4 text-lg text-stone-300">
+          Kitchens, bathrooms, floors and more.
+        </p>
+        <a
+          href="#projects"
+          class="mt-8 inline-block rounded bg-brand px-6 py-3 font-semibold text-stone-100 hover:bg-amber-400 hover:text-stone-900"
+        >
+          See our work
+        </a>
+      </div>
+    </section>
+    <section id="projects" class="mx-auto max-w-5xl. px-4 py-16">
+      <h2 class="text-3xl font-bold">Our Projects</h2>
+      <div id="filter-buttons" class="mt-6 flex gap-3">
+        <button data-filter="all" class="rounded px-4 py-2 font-semibold shadow-sm">All</button>
+        <button data-filter="completed" class="rounded px-4 py-2 font-semibold shadow-sm">Completed</button>
+        <button data-filter="upcoming" class="rounded px-4 py-2 font-semibold shadow-sm">Upcoming</button>
+      </div>
+      <div id="project-list" class="mt-8 grid gap-6 md:grid-cols-3"></div>
+    </section>
+    <section id="about" class="bg-white py-16">
+      <div class="mx-auto max-w-5xl px-4">
+        <h2 class="text-3xl font-bold">About Us</h2>
+        <p class="mt-4 max-w-2xl text-stone-600">
+          JPT is a tiling company in Perth Austrelia. We provide tiling services in wide range of areas such as bathroom tiling, kitchen, hallways, and swimming pools. 
+          JPT was estbalished by Jawad in 2010 and has been providing first class service to the local communities since then. Our moto is first class service and customer satisfaction. 
+          Contact us if you are need help renewing the tiling in your bathroom, kitchen, hallway, or swimming pool. 
+          We are available on Whatsapp 24/7.  
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="mx-auto max-w-5xl px-4 py-16">
+      <h2 class="text-3xl font-bold">Contact</h2>
+      <p class="mt-4 text-stone-600"> Get intouch for a free evaluation</p>
+      <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+        <a 
+        href="tel:+610000000000"
+        class="rounded bg-brand px-6 py-3 text-center font-semibold text-white hover:bg-brand/80"
+        >
+        Call us
+      </a>
+      <a 
+      href="mailto: info@jpt.com"
+      class="rounded border border-brand px-6 py-3 text-center font-semibold text-brand hover:bg-brand hover:text-white"
+      >
+      Email us
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-stone-800 py-8 text-center text-sm text-stone-400">
+    <p>&copy; <span id="year"></span> JPT. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
