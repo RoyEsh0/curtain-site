@@ -53,10 +53,19 @@
   
 
   <main>
-    <section class="bg-brand py-24 text-center text-white">
-      <div class="mx-auto max-w-3xl px-4">
+    <section class="relative overflow-hidden bg-brand py-24 text-center text-white md:py-36">
+      
+      <img 
+        src="/images/custom-large-window.webp"
+        alt=""
+        fetchpriority="high"
+        class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div class="absolute inset-0 bg-black/50"></div>
+      
+      <div class="relative mx-auto max-w-3xl px-4">
         <h1 class="text-4xl font-bold md:text-6xl">Curtains, Professional Service</h1>
-        <p class="mt-4 text-lg text-white/80">
+        <p class="mt-4 text-lg text-white/90">
           sheer, blackout, and custom
         </p>
         <a
@@ -67,6 +76,8 @@
         </a>
       </div>
     </section>
+
+    <!--
     <section id="gallery" class="mx-auto max-w-5xl px-4 py-16">
       <h2 class="text-3xl font-bold">Featured Work</h2>
       <div class="relative mt-8 overflow-hidden rounded-lg">
@@ -95,6 +106,7 @@
       </button>
       </div>
     </section>
+  -->
     <section id="projects" class="mx-auto max-w-5xl. px-4 py-16">
       <h2 class="text-3xl font-bold">Categories</h2>
       <div id="filter-buttons" class="mt-6 flex gap-3">
