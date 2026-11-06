@@ -1,5 +1,6 @@
 import "./style.css"
 import { projects } from "./projects"
+import { steps } from "./steps.js";
 
 const projectList = document.querySelector("#project-list");
 
@@ -79,3 +80,22 @@ menu.addEventListener("click", () =>{
   }
 });
 
+const stepsList = document.querySelector("#steps-list");
+
+function createStep (step, index) {
+  const isLast = index === steps.length - 1;
+
+  return `
+    <li class="relative text-center">
+      ${isLast ? "" : '<div class="absolute left-[calc(50%+3rem)] top-[31px] hidden h-1 w-[calc(100%-4rem)] bg-brand lg:block"></div>'}
+      <span class="mx-auto block h-16 w-16 p-2 rounded-full bg-white  text-brand [&>svg]:h-full [&>svg]:w-full shadow-sm">
+      ${step.icon}
+      </span>
+      <h3 class="mt-4 text-xl font-bold">${step.title}</h3>
+      <p class="mt-2 text-stone-600">${step.description}</p>
+    </li>  
+  `;
+
+}
+
+stepsList.innerHTML = steps.map(createStep).join("");
