@@ -28,10 +28,10 @@
   </head>
   <body class="bg-stone-50 text-stone-800">
   
-  <header class="bg-white shadow">
+  <header class="bg-brand text-white shadow">
     <nav class="mx-auto max-w-5xl p-4 md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
-        <a href="#" class="text-xl font-bold text-brand">Qurban Curtains</a>
+        <a href="#" class="text-xl font-bold">Qurban Curtains</a>
         <button
         id="menu-button"
         type="button"
@@ -44,69 +44,40 @@
         </button>
       </div>
       <ul id="menu" class="hidden space-y-4 pt-4 md:flex md:space-y-0 md:gap-6 md:pt-0">
-        <li><a href="#category" class="hover:text-brand">Categories</a></li>
-        <li><a href="#about" class="hover:text-brand">About</a></li>
-        <li><a href="#contact" class="hover:text-brand">Contact</a></li>
+        <li><a href="#category" class="hover:underline">Categories</a></li>
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
       </ul>
     </nav>
   </header>
   
 
   <main>
-    <section class="relative overflow-hidden bg-brand py-24 text-center text-white md:py-36">
+    <section class="relative overflow-hidden bg-white py-24 text-center text-brand md:py-36">
       
       <img 
-        src="/images/custom-large-window.webp"
+        src="/images/hero.webp"
         alt=""
         fetchpriority="high"
         class="absolute inset-0 h-full w-full object-cover"
         />
-        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="absolute inset-0 bg-white/50"></div>
       
       <div class="relative mx-auto max-w-3xl px-4">
         <h1 class="text-4xl font-bold md:text-6xl">Curtains, Professional Service</h1>
-        <p class="mt-4 text-lg text-white/90">
+        <p class="mt-4 text-lg text-stone-900">
           sheer, blackout, and custom
         </p>
         <a
           href="#projects"
-          class="mt-8 inline-block rounded bg-white px-6 py-3 font-semibold text-brand hover:bg-stone-100 hover:text-stone-900"
+          class="mt-8 inline-block rounded bg-brand px-6 py-3 font-semibold text-white hover:bg-stone-100 hover:text-stone-900"
         >
           See our categories
         </a>
       </div>
     </section>
 
-    <!--
-    <section id="gallery" class="mx-auto max-w-5xl px-4 py-16">
-      <h2 class="text-3xl font-bold">Featured Work</h2>
-      <div class="relative mt-8 overflow-hidden rounded-lg">
-        <div
-          id="carousel-track"
-          role="region"
-          aria-label="Featured curtain photos"
-          tabindex="0"
-          class="flex snap-x snap-mandatory overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-        ></div>
-        <button 
-          id="carousel-prev"
-          type="button"
-          aria-label="Previous photo"
-          class="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 px-4 py-2 text-2xl text-stone-800 shadow hover:bg-white"
-          >
-          &#8249;
-        </button>
-        <button 
-          id="carousel-next"
-          type="button"
-          aria-label="Next photo"
-          class="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 px-4 py-2 text-2xl text-stone-800 shadow hover:bg-white"
-        >
-          &#8250;
-      </button>
-      </div>
-    </section>
-  -->
+    
     <section id="projects" class="mx-auto max-w-5xl. px-4 py-16">
       <h2 class="text-3xl font-bold">Categories</h2>
       <div id="filter-buttons" class="mt-6 flex gap-3">
