@@ -78,3 +78,33 @@ menu.addEventListener("click", () =>{
     menuButton.setAttribute("aria-expanded", false);
   }
 });
+
+const carouselTrack = document.querySelector("#carousel-track");
+
+function createSlide (project, index){
+  return `
+    <figure class="relative aspect-[4/3] min-w-full flex-none snap-center md:aspect - [16/9]">
+      <img
+        src="${project.image}"
+        alt="${project.alt}"
+        loading="${index === 0 ? "eager" : "lazy"}"
+        class="h-full w-full object-cover"
+      />
+      <figcaption class="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/70 to-transparent p-6 text-white">
+      <p class="text-xl font-bold">${project.title}</p>
+      </figcaption>
+    </figure>
+  `;
+}
+
+carouselTrack.innerHTML = projects.map(createSlide).join("");
+
+document.querySelector("#carousel-prev").addEventListener("click", ()=>{
+  carouselTrack.scrollBy({ left: -carouselTrack.clientWidth, behavior: "smooth" });
+});
+
+document.querySelector("#carousel-next").addEventListener("click", () =>{
+  carouselTrack.scrollBy({ left: carouselTrack.clientWidth, behavior: "smooth"});
+
+});
+

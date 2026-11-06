@@ -23,4 +23,12 @@ export const projects = [
     image: "/images/custom.webp",
     alt: "Custom pleated curtains on a tall window",
   },
+  {
+    id: 4,
+    title: "New-custom-design",
+    description: "Custom fabric, pleats and finish for a tall window.",
+    category: "custom",
+    image: "/images/custom-large-window.webp",
+    alt: "Custom pleated curtains for wider windows",
+  },
 ];
