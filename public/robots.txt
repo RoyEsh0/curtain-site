@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jpt-tiling.netlify.app/sitemap.xml
