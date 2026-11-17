@@ -4,7 +4,7 @@ export const projects = [
     title: "Living room sheers",
     description: "Light, airy sheers that soften the afternoon sun.",
     category: "sheer",
-    image: "/images/sheer.webp",
+    image: "/images/sheer1.webp",
     alt: "White sheer curtains in a bright living room",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: "Bedroom blockouts",
     description: "Lined, floor-length curtains for full light control.",
     category: "blockout",
-    image: "/images/blockout.webp",
+    image: "/images/livingroom.webp",
     alt: "Dark blockout curtains in a bedroom",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     title: "Made-to-measure drapes",
     description: "Custom fabric, pleats and finish for a tall window.",
     category: "custom",
-    image: "/images/custom.webp",
+    image: "/images/Hall.webp",
     alt: "Custom pleated curtains on a tall window",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: "New-custom-design",
     description: "Custom fabric, pleats and finish for a tall window.",
     category: "custom",
-    image: "/images/custom-large-window.webp",
+    image: "/images/sheer.webp",
     alt: "Custom pleated curtains for wider windows",
   },
 ];
