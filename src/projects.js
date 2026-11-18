@@ -26,7 +26,7 @@ export const projects = [
   {
     id: 4,
     title: "Living room blockout",
-    description: "Custom fabric, pleats and finish for a tall window.",
+    description: "Custom fabric, pleats and finish for a wide glass fronts.",
     category: "custom",
     image: "/images/livingroomblockout.jpeg",
     alt: "Custom pleated curtains for wider windows",
