@@ -10,7 +10,7 @@ export const projects = [
   {
     id: 2,
     title: "Bedroom blockouts",
-    description: "Lined, floor-length curtains for full light control.",
+    description: "Lined, floor-length blockout for light control.",
     category: "blockout",
     image: "/images/bedroomblockout.jpeg",
     alt: "Dark blockout curtains in a bedroom",
@@ -34,7 +34,7 @@ export const projects = [
   {
     id: 5,
     title: "New-custom-design",
-    description: "Custom fabric, pleats and finish for a tall window.",
+    description: "Custom fabric, pleats and finish for full length of a wide window.",
     category: "custom",
     image: "/images/bedroomsheer.jpeg",
     alt: "Custom pleated curtains for wider windows",
@@ -42,7 +42,7 @@ export const projects = [
   {
     id: 6,
     title: "Living room sheers",
-    description: "Light, airy sheers that soften the afternoon sun.",
+    description: "Light, airy sheers that soften the sharp sunlight.",
     category: "sheer",
     image: "/images/livingroomsheer.jpeg",
     alt: "White sheer curtains in a bright living room",
@@ -50,7 +50,7 @@ export const projects = [
    {
     id: 7,
     title: "Window blockout",
-    description: "Light, airy sheers that soften the afternoon sun.",
+    description: "Light, thick blockout that blocks the light outside.",
     category: "sheer",
     image: "/images/windowblockout.jpeg",
     alt: "White sheer curtains in a bright living room",
@@ -58,7 +58,7 @@ export const projects = [
    {
     id: 8,
     title: "Bedroom sheer",
-    description: "Light, airy sheers that soften the afternoon sun.",
+    description: "Light, airy sheers that both soften the light and provide privacy.",
     category: "sheer",
     image: "/images/sheer1.webp",
     alt: "White sheer curtains in a bright living room",
