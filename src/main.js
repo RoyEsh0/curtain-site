@@ -99,3 +99,15 @@ function createStep (step, index) {
 }
 
 stepsList.innerHTML = steps.map(createStep).join("");
+/*
+document.querySelectorAll("[data-video-id]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube-nocookie.com/embed/${button.dataset.videoId}?autoplay=1`;
+    iframe.title = button.dataset.videoTitle;
+    iframe.allow = "autoplay; encrypted-media; picture-in-picture";
+    iframe.allowFullscreen = true;
+    iframe.className = "aspect-video w-full";
+    button.replaceWith(iframe);
+  });
+});*/
